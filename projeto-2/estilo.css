@@ -1,0 +1,51 @@
+body{
+background-image: url(./img/fundo.jpg);
+width: 90vw;
+height: 90vh;
+
+}
+
+
+.formulario{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 20%;
+}
+h1{
+    text-align: center;
+
+}
+    
+.caixa{
+background-color: rgb(245, 144, 228);
+width: 10cm;
+border-radius: 20px 20px 20px 20px;
+
+
+}
+
+    .botao{
+        border: solid 1px  rgb(181, 12, 150);
+        border-radius: 20px;
+        color: rgb(181, 12, 150);
+        background-color: white;
+        transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+    }
+    .botao:hover{
+        background-color: rgb(181, 12, 150);
+        color: white;
+        transform: scale(1.2)
+    }
+    form{
+        text-align: center;
+    }
+     button{
+        background-color:  rgb(181, 12, 150);
+        color: white;
+        transform: scale(1.2)
+        border: 30px solid blue;
+    border-radius: 20px;
+     }
